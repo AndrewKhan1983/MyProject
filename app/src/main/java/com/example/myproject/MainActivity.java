@@ -4,7 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
+
+    ArrayList<String> products = new ArrayList<String>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
