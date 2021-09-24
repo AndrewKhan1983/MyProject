@@ -29,6 +29,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintHorizontal_weight="2"
+        android:onClick="add"
         android:text="+"
         app:layout_constraintLeft_toRightOf="@id/number"
         app:layout_constraintTop_toTopOf="parent"
@@ -38,6 +39,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintHorizontal_weight="2"
+        android:onClick="remove"
         android:text="-"
         app:layout_constraintLeft_toRightOf="@id/add"
         app:layout_constraintTop_toTopOf="parent"/>
